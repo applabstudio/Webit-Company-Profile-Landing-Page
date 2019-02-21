@@ -104,7 +104,21 @@
   
   .column2{
     margin-left:60px;
+   
   }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#column-2 {
+  display: flex;
+}
+#column-1 {
+  display: flex;
+}
+}
+
+
   #our-services .services .column {
     float: left;
     transform: rotate(45deg);
